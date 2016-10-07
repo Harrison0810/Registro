@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col s10">
+                <div class="row">
+                    <div class="col s2">
+                        Nombre
+                    </div>
+                    <div class="col s2">
+                        Apellido
+                    </div>
+                    <div class="col s2">
+                        Email
+                    </div>
+                    <div class="col s2">
+                        Edad
+                    </div>
+                    <div class="col s2">
+                        Cuidad
+                    </div>
+                    <div class="col s2">
+                        Teléfono
+                    </div>
+                </div>
+            </div>
+            <div class="col s1 center">
+                <button class="boton1">+</button>
+            </div>
+            <div class="col s1 center">
+                <button class="guardar">Ok</button>
+            </div>
+            <button class="guardar">Save</button>
+            <button id="delete" class="borrar">Delete</button>
+        </div>
+    </div>
+</header>
+<section id="section1">
+    <div class="container">
+        <div class="row">
+            <div class="col s10">
+               <div class="row">
+                   <div id="deleteP">
+                        <div class="col s2"><input class="nombre" type="text" placeholder="Nombre"></div>
+                        <div class="col s2"><input class="apellido" type="text" placeholder="Apellido"></div>
+                        <div class="col s2"><input class="correo" type="text" placeholder="Correo"></div>
+                        <div class="col s2"><input class="edad" type="text" placeholder="Edad"></div>
+                        <div class="col s2"><input class="ciudad" type="text" placeholder="Ciudad"></div>
+                        <div class="col s2"><input class="telefono" type="text" placeholder="Teléfono"></div>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section2">
+    <div class="agregar"></div>
+</section>
+<section>
+    <h4 class="center">Almacenamiento</h4>
+    <div class="almacenar"></div>
+</section>
+<footer>
+
+</footer>
+<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

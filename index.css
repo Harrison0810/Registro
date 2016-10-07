@@ -1,0 +1,28 @@
+header{
+    background: #00695c;
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    position: fixed;
+    width: 100%;
+}
+.table{
+    background: #fafafa;
+}
+.center{
+    text-align: center;
+}
+.borrar{
+    background: #ff0000;
+    color: white;
+}
+.right{
+    text-align: center;
+}
+.line{
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+}
+#section1{
+    padding-top: 120px;
+}
